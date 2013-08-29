@@ -2,7 +2,7 @@
   "name": "little-server",
   "main": "index.html",
   "description": "A little app that makes it easy to start a simple file server on your computer.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "window": {
     "title": "Little Server - Decoded",
     "toolbar": false,
