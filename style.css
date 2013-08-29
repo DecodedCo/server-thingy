@@ -1,0 +1,73 @@
+html, body {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  height: 225px;
+  width: 320px;
+  padding-top: 30px;
+  background-color: rgb(254, 248, 0);
+}
+
+header img {
+  display: block;
+  margin: auto;
+}
+
+header h2 {
+  margin: 0;
+  padding-left: 8px;
+  font-size: 22px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+header button {
+  display: block;
+  width: 280px;
+  margin: auto;
+  margin-top: 20px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #555;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+
+header button:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+section {
+  width: 400px;
+  margin-left: 320px;
+}
+
+.info {
+  position: fixed;
+  width: 400px;
+  height: 30px;
+  left: 320px;
+  background: rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid #ddd;
+  line-height: 30px;
+  text-align: center;
+}
+
+.file-dialogue {
+  display: none;
+}

@@ -2,11 +2,23 @@
 <html>
   <head>
     <title>Little Server - Decoded</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using node.js <script>document.write(process.version)</script>.
-
+    <header>
+      <img src="decoded-logo.png" alt="Decoded">
+      <h2>Little Server</h2>
+      <input class="file-dialogue" type="file" nwdirectory>
+      <button class="file-launcher">Choose Folder</button>
+      <button class="server-stopper" style="display: none;">Stop Server</button>
+    </header>
+    <section>
+      <div class="info">
+        Serving your stuff at <a href="http://localhost:1337">http://localhost:1337/</a>
+      </div>
+    </section>
+    <script src="jquery.js"></script>
     <script src="little-server.js"></script>
   </body>
 </html>

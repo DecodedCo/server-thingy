@@ -6,8 +6,11 @@
   "window": {
     "title": "Little Server - Decoded",
     "toolbar": false,
-    "width": 640,
-    "height": 320,
+    "width": 320,
+    "height": 225,
     "resizable": false
+  },
+  "dependencies": {
+    "connect": "~2.8.7"
   }
 }
