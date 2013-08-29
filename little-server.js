@@ -3,7 +3,8 @@
 "use strict";
 
 var http = require("http"),
-  connect = require("connect");
+  connect = require("connect"),
+  open = require("open");
 
 var fileDialogue = $(".file-dialogue"),
   fileLauncher = $(".file-launcher"),
@@ -77,4 +78,9 @@ serverStopper.on("click", function() {
   serverStopper.css("display", "none");
 
   expand(true);
+});
+
+$(document).on("click", "a[href]", function(e) {
+  e.preventDefault();
+  open($(this).attr("href"));
 });
